@@ -28,7 +28,6 @@ class Blockchain(object):
 
     @property
     def last_block(self):
- 
         return self.chain[-1]
 
 # Add a transaction with relevant info to the 'blockpool' - list of pending tx's. 
